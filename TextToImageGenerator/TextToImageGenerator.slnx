@@ -1,6 +1,3 @@
 <Solution>
-  <Folder Name="/Itens de Solução/">
-    <File Path="readme.md" />
-  </Folder>
-  <Project Path="TextToImageGenerator.csproj" />
+   <Project Path="TextToImageGenerator.csproj" />
 </Solution>

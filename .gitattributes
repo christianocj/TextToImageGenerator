@@ -1,0 +1,18 @@
+# Garante que o GitHub Linguist reconheça corretamente as linguagens do projeto
+
+# C# como linguagem principal
+*.cs linguist-language=C#
+
+# Razor components contam como parte do projeto, mas não como "linguagem" separada
+*.razor linguist-language=C#
+
+# Ignora arquivos gerados/gerenciados nas estatísticas de linguagem
+*.csproj linguist-detectable=false
+*.sln linguist-detectable=false
+wwwroot/**/*.css linguist-detectable=false
+wwwroot/**/*.js linguist-detectable=false
+
+# Normaliza fim de linha (boa prática, evita diffs bagunçados entre Windows/Linux)
+* text=auto eol=lf
+*.cs text eol=crlf
+*.razor text eol=crlf
