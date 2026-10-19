@@ -31,7 +31,7 @@ O usuário escolhe o modo (Texto ou Imagem), digita um prompt e, no caso de imag
 ## Clonar o repositório
 
 ```bash
-git clone https://github.com/<seu-usuario>/TextToImageGenerator.git
+git clone https://github.com/christianocj/TextToImageGenerator.git
 cd TextToImageGenerator
 ```
 
